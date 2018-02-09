@@ -1,0 +1,22 @@
+* CiviC-mode
+This mode is a simple mode for CiviC. It doesn't do much at the moment, it only
+highlights syntax, however even that doesn't really support arrays at the
+moment.
+
+** Installing
+This package is not and probably never will be in MELPA or something like it. To
+use it you need to download and load it (scary!). You can do this using ~load~
+or ~require~, refer to their documentation on how to do this. After loading this
+file the major mode ~civic-mode~ will be enabled for al files ending with
+~.civic~.
+** FAQ
+Well nothing but here are some things I ran into.
+*** A lot of errors pop up when enabling this mode!
+That is probably because this mode inherits from ~c-mode~, however a lot of
+tools you might enable are really bad and don't even support CiviC! You probably
+want to wrap your ~c-mode~ hooks in ~(unless (eql major-mode 'civic-mode)
+CODE)~.
+** License
+This code is free software distributed under GPLv3. See ~LICENSE~ for more details.
+** Contributing
+If you want to add something to it please do and create a PR!
