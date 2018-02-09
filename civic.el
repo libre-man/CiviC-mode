@@ -26,7 +26,7 @@
          (types '("int" "float" "bool" "void"))
          (constants '("true" "false"))
          (builtins '())
-         (preprocessors '("include" "if" "ifdef" "ifndef" "endif" "else"))
+         (preprocessors '("include" "if" "ifdef" "ifndef" "endif" "else" "define"))
 
          ;; generate regex string for each category of keywords
          (keywords-regexp (regexp-opt keywords 'words))
