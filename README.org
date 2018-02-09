@@ -8,7 +8,7 @@ This package is not and probably never will be in MELPA or something like it. To
 use it you need to download and load it (scary!). You can do this using ~load~
 or ~require~, refer to their documentation on how to do this. After loading this
 file the major mode ~civic-mode~ will be enabled for al files ending with
-~.civic~.
+~.cvc~.
 ** FAQ
 Well nothing but here are some things I ran into.
 *** A lot of errors pop up when enabling this mode!

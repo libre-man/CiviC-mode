@@ -59,7 +59,7 @@
   (setq font-lock-defaults '((civic-font-lock-keywords))))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.civic$" . 'civic-mode))
+(add-to-list 'auto-mode-alist '("\\.cvc$" . civic-mode))
 
 ;; add the mode to the `features' list
 (provide 'civic-mode)
